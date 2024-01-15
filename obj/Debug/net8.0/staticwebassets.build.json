@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "JGmB/j066MQfvcReDmYQQYSZNrI3Ir2HNjrSzQWJg1I=",
+  "Source": "weather-forecast-api",
+  "BasePath": "_content/weather-forecast-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
