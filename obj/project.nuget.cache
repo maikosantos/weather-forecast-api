@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "XF2TopNqUF3A/hm/BV2kqZPvan8cYDtYmdNoz1h5eqCKjh0fqguG1+JFNchuwfPVRdu2bTvO9YiBpeH5HiXl7g==",
+  "dgSpecHash": "rcU65hq2K4UapMI1tNjHz7LqPDlSB/4vt2Py/QNht3YpbhwNdTuvPlxa7t+xU6AAogY8SYHo6JSyeDauG2WceA==",
   "success": true,
   "projectFilePath": "C:\\www\\upstart13\\weather-forecast-api\\weather-forecast-api.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Maiko\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\Maiko\\.nuget\\packages\\moq\\4.20.70\\moq.4.20.70.nupkg.sha512",
+    "C:\\Users\\Maiko\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
+    "C:\\Users\\Maiko\\.nuget\\packages\\xunit\\2.6.6\\xunit.2.6.6.nupkg.sha512",
+    "C:\\Users\\Maiko\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\Maiko\\.nuget\\packages\\xunit.analyzers\\1.10.0\\xunit.analyzers.1.10.0.nupkg.sha512",
+    "C:\\Users\\Maiko\\.nuget\\packages\\xunit.assert\\2.6.6\\xunit.assert.2.6.6.nupkg.sha512",
+    "C:\\Users\\Maiko\\.nuget\\packages\\xunit.core\\2.6.6\\xunit.core.2.6.6.nupkg.sha512",
+    "C:\\Users\\Maiko\\.nuget\\packages\\xunit.extensibility.core\\2.6.6\\xunit.extensibility.core.2.6.6.nupkg.sha512",
+    "C:\\Users\\Maiko\\.nuget\\packages\\xunit.extensibility.execution\\2.6.6\\xunit.extensibility.execution.2.6.6.nupkg.sha512"
+  ],
   "logs": []
 }

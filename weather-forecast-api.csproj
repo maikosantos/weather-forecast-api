@@ -8,4 +8,9 @@
     <RootNamespace>weather_forecast_api</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.20.70" />
+    <PackageReference Include="xunit" Version="2.6.6" />
+  </ItemGroup>
+
 </Project>

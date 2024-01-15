@@ -13,4 +13,10 @@
     <SourceRoot Include="C:\Users\Maiko\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)xunit.core\2.6.6\build\xunit.core.props" Condition="Exists('$(NuGetPackageRoot)xunit.core\2.6.6\build\xunit.core.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\Maiko\.nuget\packages\xunit.analyzers\1.10.0</Pkgxunit_analyzers>
+  </PropertyGroup>
 </Project>

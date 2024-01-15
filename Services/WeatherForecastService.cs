@@ -48,7 +48,7 @@ namespace weather_forecast_api.Services
                         PropertyNameCaseInsensitive = true
                     });
 
-                    return weatherResponse.Result.AddressMatches[0].Coordinates;
+                    return weatherResponse.Result.AddressMatches.First().Coordinates;
                 }
                 else
                 {
@@ -59,7 +59,7 @@ namespace weather_forecast_api.Services
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error getting coordinates for address: {address}", address.FullAddress);
-                throw;
+                throw ex;
             }
         }
 
@@ -101,7 +101,7 @@ namespace weather_forecast_api.Services
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error getting URL forecast for coordinates: {x}, {y}", coordinates.x, coordinates.y);
-                throw;
+                throw ex;
             }
         }
 
@@ -136,7 +136,7 @@ namespace weather_forecast_api.Services
             catch (Exception ex)
             {
                 _logger.LogError(ex, $"Error getting forecast for url: {forecastUrl}");
-                throw;
+                throw ex;
             }
 
         }
